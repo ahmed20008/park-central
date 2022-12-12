@@ -814,6 +814,7 @@ section.about-section {
 .apartments h1 {
   color: #de9a42;
   font-weight: 600;
+  display: table-caption;
 }
 
 .hl {
@@ -1065,6 +1066,17 @@ p {
     padding-left: 0.5rem !important;
     padding-right: 0.5rem !important;
   }
+
+  .apartments {
+    padding-bottom: 1.5rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .apartments h1 {
+    display: inline;
+  }
+
 }
 
 @media (max-width: 460.98px) {
