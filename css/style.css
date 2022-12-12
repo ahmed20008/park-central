@@ -818,6 +818,7 @@ section.about-section {
 }
 
 .hl {
+  background-color: #de9a42;
   border: 1px solid #de9a42;
   margin-top: 1rem;
   margin-bottom: 1rem;
