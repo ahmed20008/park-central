@@ -1153,10 +1153,30 @@ section.about-section {
   margin-bottom: 3rem;
 }
 
+.splide__slide img {
+  object-fit: cover;
+  box-shadow: 6px 5px 8px 4px rgba(0, 0, 0, 0.53);
+  -webkit-box-shadow: 6px 5px 8px 4px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: 6px 5px 8px 4px rgba(0, 0, 0, 0.53);
+  transition: transform .2s;
+}
 
+.splide__slide img:hover {
+  transform: scale(1.2);
+}
 
+.splide__slide {
+  height: 370px !important;
+  top: 40px;
+}
 
+.splide__arrow--next {
+  right: 0em !important;
+}
 
+.splide__arrow--prev {
+  left: 0em !important;
+}
 
 
 

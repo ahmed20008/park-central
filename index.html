@@ -26,6 +26,9 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
     integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/combine/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css,npm/@splidejs/splide@4.1.4/dist/css/splide-core.min.css">
+
   <!-- Style -->
   <link rel="stylesheet" href="css/style.css">
 
@@ -225,6 +228,70 @@
       </div>
     </div>
   </section>
+
+
+  <section class="py-5">
+    <div class="container">
+      <div class="splide my-5" aria-labelledby="carousel-heading">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide">
+              <div class="d-flex justify-content-center">
+                <img width="280px" height="280px" src="images/bedroom.png" alt="">
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="d-flex justify-content-center">
+                <img width="280px" height="280px" src="images/KITCHEN.jpg" alt="">
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="d-flex justify-content-center">
+                <img width="280px" height="280px" src="images/bathroom.png" alt="">
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="d-flex justify-content-center">
+                <img width="280px" height="280px" src="images/CAFE.jpg" alt="">
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="d-flex justify-content-center">
+                <img width="280px" height="280px" src="images/EXECUTIVE-LOUNGE.jpg" alt="">
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="d-flex justify-content-center">
+                <img width="280px" height="280px" src="images/LOUNGE_0.jpg" alt="">
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="d-flex justify-content-center">
+                <img width="280px" height="280px" src="images/LOUNGE_01.jpg" alt="">
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="d-flex justify-content-center">
+                <img width="280px" height="280px" src="images/LOUNGE_04.jpg" alt="">
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="d-flex justify-content-center">
+                <img width="280px" height="280px" src="images/RECEPTION.jpg" alt="">
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="d-flex justify-content-center">
+                <img width="280px" height="280px" src="images/RECEPTION-01.jpg" alt="">
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
 
   <section class="my-5 remarkable-feature">
     <div class="container">
@@ -636,11 +703,36 @@
 
 
 
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var splide = new Splide('.splide', {
+        type: 'loop',
+        perPage: 3,
+        focus: 'center',
+        breakpoints: {
+          991: {
+            perPage: 1,
+          },
+        },
+      });
+      splide.mount();
+    });
+
+    splide.mount();
+  </script>
+
+
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/jquery.sticky.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/combine/npm/@splidejs/splide@4.0.17,npm/@splidejs/splide-extension-auto-scroll@0.5.3"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.17/dist/js/splide.min.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 
