@@ -800,6 +800,43 @@ section.about-section {
   color: #de9a42;
 }
 
+.lounge-img {
+  box-shadow: 7px 7px 7px 1px rgba(0, 0, 0, 0.58);
+  -webkit-box-shadow: 7px 7px 7px 1px rgba(0, 0, 0, 0.58);
+  -moz-box-shadow: 7px 7px 7px 1px rgba(0, 0, 0, 0.58);
+}
+
+.apartments {
+  padding-left: 1.5rem;
+  padding-right: 1rem;
+}
+
+.apartments h1 {
+  color: #de9a42;
+  font-weight: 600;
+}
+
+.hl {
+  border: 1px solid #de9a42;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.apartments p {
+  text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* .apartment-card {
   width: 300px;
   min-width: 300px;
