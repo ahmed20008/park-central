@@ -1132,6 +1132,42 @@ section.about-section {
   font-weight: 600;
 }
 
+.remarkable-feature h1 {
+  text-align: center;
+  color: #de9a42;
+  font-weight: bold;
+}
+
+.our-feature h5 {
+  text-align: center;
+  color: #de9a42;
+  font-weight: 600;
+}
+
+.our-feature p {
+  text-align: center;
+  color: #de9a42;
+}
+
+.our-feature-mb {
+  margin-bottom: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* MEDIA QUERY  */
 @media (max-width: 991.98px) {
@@ -1221,6 +1257,12 @@ section.about-section {
   .card-content {
     padding-top: 50px;
     padding-left: 0px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .our-feature-mb {
+    margin-bottom: 1.5rem !important;
   }
 }
 
