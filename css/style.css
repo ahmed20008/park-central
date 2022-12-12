@@ -992,6 +992,10 @@ p {
     left: auto;
   }
 
+  .site-navbar {
+    top: 0rem;
+  }
+
   .about-card {
     position: absolute;
     z-index: 999999;
@@ -1017,6 +1021,13 @@ p {
   .footer-contact {
     text-align: center;
   }
+
+  .main-text {
+    position: absolute;
+    margin-top: 300px;
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+  }
 }
 
 @media (max-width: 460.98px) {
@@ -1026,9 +1037,14 @@ p {
 }
 
 
-
-
-
+@media (max-width: 480.98px) {
+  .main-text {
+    position: absolute;
+    margin-top: 300px;
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+  }
+}
 
 @media (min-width: 767.98px) and (max-width: 890.98px) {
   .location h5 {
