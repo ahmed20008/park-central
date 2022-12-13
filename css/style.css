@@ -691,10 +691,6 @@ a:hover {
   /* font-size: 45px; */
 }
 
-.navbar-buttons a:hover {
-  cursor: pointer !important;
-}
-
 .main-text span {
   color: #de9a42;
 }
