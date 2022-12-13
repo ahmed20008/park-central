@@ -102,6 +102,10 @@ a:hover {
   text-transform: uppercase;
 }
 
+.site-navbar .site-logo a img {
+  width: 150px;
+}
+
 .site-navbar .site-logo a:hover {
   text-decoration: none;
 }
@@ -1271,7 +1275,7 @@ section.about-section {
 
   .main-text {
     position: absolute;
-    margin-top: 300px;
+    margin-top: 255px;
     padding-left: 0.5rem !important;
     padding-right: 0.5rem !important;
   }
@@ -1335,7 +1339,7 @@ section.about-section {
 @media (max-width: 480.98px) {
   .main-text {
     position: absolute;
-    margin-top: 300px;
+    margin-top: 225px;
     padding-left: 0.5rem !important;
     padding-right: 0.5rem !important;
   }
