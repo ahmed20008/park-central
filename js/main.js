@@ -113,8 +113,8 @@ $(document).ready(function () {
         arrows: true,
         dots: false,
         pauseOnHover: false,
-        prevArrow: '<i class="slick-prev fas fa-angle-left"></i>',
-        nextArrow: '<i class="slick-next fas fa-angle-right"></i>',
+        prevArrow: '<img class="slick-prev" src="images/arrow-left.png" alt="">',
+        nextArrow: '<img class="slick-next" src="images/arrow-right.png" alt="">',
         responsive: [{
             breakpoint: 768,
             settings: {
