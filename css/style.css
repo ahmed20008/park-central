@@ -1206,7 +1206,7 @@ section.about-section {
 }
 
 
-.gallery-wrap {
+/* .gallery-wrap {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -1226,18 +1226,25 @@ section.about-section {
 
 .item:hover {
   flex: 7;
-}
+} */
 
-.exceptional-amenitites h1 {
+.amenitites-text h1 {
   color: #de9a42;
   font-weight: bold;
 
 }
 
-.exceptional-amenitites h6 {
+.amenitites-text h6 {
   color: #de9a42;
 }
 
+.amenitites-images img {
+  height: 70vh;
+  width: 200px;
+  background-repeat: none;
+  object-fit: cover;
+  border-radius: 20px;
+}
 
 
 

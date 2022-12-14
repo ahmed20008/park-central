@@ -127,4 +127,37 @@ $(document).ready(function () {
             }
         }]
     });
+    $('.hotel-images').slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        autoplay: false,
+        autoplaySpeed: 1500,
+        arrows: true,
+        dots: false,
+        pauseOnHover: false,
+        prevArrow: '<img class="slick-prev" src="images/arrow-left.png" alt="">',
+        nextArrow: '<img class="slick-next" src="images/arrow-right.png" alt="">',
+        responsive: [
+            {
+                breakpoint: 1040,
+                settings: {
+                    slidesToShow: 4
+                }
+            }, {
+                breakpoint: 964,
+                settings: {
+                    slidesToShow: 3
+                }
+            }, {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2
+                }
+            }, {
+                breakpoint: 520,
+                settings: {
+                    slidesToShow: 1
+                }
+            }]
+    });
 });
