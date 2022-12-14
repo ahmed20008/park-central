@@ -754,6 +754,11 @@ section.about-section {
   border-radius: 15px;
 }
 
+.location .location-cards .card:hover {
+  cursor: pointer;
+  border-color: #c27c20;
+}
+
 .footer-contact h2 {
   color: #de9a42;
   text-align: center;
@@ -1198,7 +1203,6 @@ section.about-section {
   font-weight: bold;
   color: #fff;
   top: 35%;
-  background-color: red;
 }
 
 
