@@ -108,7 +108,7 @@ $(document).ready(function () {
     $('.customer-logos').slick({
         slidesToShow: 5,
         slidesToScroll: 1,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 1500,
         arrows: true,
         dots: false,

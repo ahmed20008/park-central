@@ -1341,7 +1341,7 @@ section.about-section {
   }
 }
 
-@media (min-width: 767.98px) and (max-width: 890.98px) {
+@media (min-width: 767.98px) and (max-width: 991.98px) {
   .location h5 {
     text-underline-offset: 0px;
     line-height: 2;
