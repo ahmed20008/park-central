@@ -1217,7 +1217,7 @@ section.about-section {
 }
 
 .amenitites-images img {
-  height: 70vh;
+  height: 500px;
   width: 200px;
   background-repeat: none;
   object-fit: cover;
@@ -1234,11 +1234,16 @@ section.about-section {
 }
 
 .hotel-images .slick-prev,
-.slick-next {
+.hotel-images .slick-next {
   position: absolute;
-  top: 50%;
+  top: 47%;
   font-size: 1.8rem;
   z-index: 1;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  cursor: pointer;
 }
 
 .amenities-logo img {
