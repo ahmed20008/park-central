@@ -1216,6 +1216,33 @@ section.about-section {
   color: #de9a42;
 }
 
+.amenities-underline {
+  width: 370px;
+  text-align: center;
+  border: 1px solid #de9a42;
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.long-underline {
+  width: 550px;
+  text-align: center;
+  border: 1px solid #de9a42;
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.partners-underline {
+  width: 350px;
+  text-align: center;
+  border: 1px solid #de9a42;
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .amenitites-images img {
   height: 500px;
   width: 200px;
@@ -1249,7 +1276,7 @@ section.about-section {
 .amenities-logo img {
   position: absolute;
   z-index: 1;
-  width: 50px !important;
+  width: 80px !important;
   height: auto !important;
   top: 190px;
 }
@@ -1257,7 +1284,7 @@ section.about-section {
 .amenities-logo h3 {
   position: absolute;
   z-index: 1;
-  top: 250px;
+  top: 285px;
 }
 
 .amenities-logo img:hover {
@@ -1345,6 +1372,13 @@ section.about-section {
     width: 235px;
   }
 
+  .location h1 {
+    text-align: center;
+  }
+
+  .location h5 {
+    text-align: center;
+  }
 }
 
 @media (max-width: 1024.98px) {
