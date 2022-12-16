@@ -1,11 +1,5 @@
-/* :root{
-  #de9a42
-} */
 body {
-  font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   background-color: #fff;
-  height: 200vh;
-  position: relative;
 }
 
 body:before {
@@ -36,7 +30,7 @@ p {
   font-size: 17px;
 }
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -48,8 +42,8 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
+  
+} */
 
 a {
   -webkit-transition: .3s all ease;
