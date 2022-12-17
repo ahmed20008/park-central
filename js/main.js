@@ -160,4 +160,21 @@ $(document).ready(function () {
                 }
             }]
     });
+
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+    var splide = new Splide('.splide', {
+        type: 'loop',
+        perPage: 3,
+        focus: 'center',
+        breakpoints: {
+            991: {
+                perPage: 1,
+            },
+        },
+    });
+    splide.mount();
+});
+
+splide.mount();
