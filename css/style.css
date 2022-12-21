@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@400;500;600;700&display=swap');
+
 body {
   background-color: #fff;
 }
@@ -26,8 +28,8 @@ body.offcanvas-menu:before {
 
 p {
   color: #616161;
-  font-weight: 300;
-  font-size: 17px;
+  font-weight: 400;
+  font-size: 14px;
 }
 
 /* h1,
@@ -57,7 +59,7 @@ a:hover {
 }
 
 .hero {
-  height: 100vh;
+  height: 120vh;
   width: 100%;
   background-size: cover;
   background-position: center center;
@@ -81,6 +83,9 @@ a:hover {
   .site-navbar .container-fluid {
     padding-left: 15px;
     padding-right: 15px;
+  }
+  .navbar-lines{
+    display: none;
   }
 }
 
@@ -146,7 +151,7 @@ a:hover {
 }
 
 .site-navbar .site-navigation .site-menu .active {
-  color: #de9a42;
+  color: #d79e1a;
   display: inline-block;
   padding: 5px 20px;
   font-weight: bold;
@@ -674,6 +679,11 @@ a:hover {
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
 }
+.socials{
+  position: absolute;
+  margin-top: 40%;
+  right: 20px;
+}
 
 .main-text {
   position: absolute;
@@ -683,17 +693,18 @@ a:hover {
 .main-text h1 {
   color: #fff;
   /* font-size: 45px; */
+  font-family: 'Philosopher', sans-serif;
 }
 
 .main-text span {
-  color: #de9a42;
+  color: #d79e1a;
 }
 
 .chat-btn,
 .chat-btn:focus,
 .chat-btn:hover {
   color: white;
-  background-color: #de9a42;
+  background-color: #d79e1a;
   padding: 0.3rem 1.5rem;
 }
 
@@ -701,7 +712,7 @@ a:hover {
 .learn-more-btn button:hover,
 .learn-more-btn button:focus {
   color: #fff !important;
-  background-color: #de9a42e3;
+  background-color: #d79e1a;
 }
 
 .about-card {
@@ -712,12 +723,12 @@ a:hover {
 }
 
 .about-card .card {
-  background-color: rgba(78, 78, 78, 0.479);
+  background-color: rgba(0, 0, 0, 0.50);
   border: none;
   font-size: 14px;
-  box-shadow: 9px 10px 14px 2px rgba(64, 64, 64, 0.75);
-  -webkit-box-shadow: 9px 10px 14px 2px rgba(64, 64, 64, 0.75);
-  -moz-box-shadow: 9px 10px 14px 2px rgba(64, 64, 64, 0.75);
+  box-shadow: 9px 10px 14px 2px rgb(64 64 64 / 75%);
+  -webkit-box-shadow: 9px 10px 14px 2px rgb(64 64 64 / 75%);
+  -moz-box-shadow: 9px 10px 14px 2px rgb(64 64 64 / 75%);
 }
 
 section.about-section {
@@ -725,12 +736,51 @@ section.about-section {
 }
 
 .location h1 {
-  color: #de9a42;
-  font-weight: 600;
+  color: #d79e1a;
+  font-weight: 500;
+  font-family: 'Philosopher', sans-serif;
+}
+.amenties .layer {
+    background-color: rgb(222 143 40 / 70%);
+    position: absolute;
+    top: 0;
+    left: 43;
+    width: 300px;
+    height: 300px;
+}
+
+.amenitites-images .layer {
+    background-color: rgb(222 143 40 / 70%);
+    position: absolute;
+    top: 16px;
+/*    left: 0;*/
+    width: 200px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.amenties .splide__slide:hover .layer {
+    width: 0px;
+    height: 0px;
+
+}
+
+.amenitites-images:hover .layer {
+    width: 0px;
+    height: 0px;
+}
+
+.amenties .splide__slide:hover .text-overlay2 {
+  display: none;
+
+}
+
+.amenitites-images:hover .text-overlay2 {
+  display: none;
 }
 
 .location h5 {
-  color: #de9a42;
+  color: #d79e1a;
   font-weight: 600;
   font-size: 15px;
   text-decoration: underline 2px;
@@ -739,12 +789,13 @@ section.about-section {
 }
 
 .location p {
-  font-size: 13px;
+  font-size: 14px;
   text-align: justify;
+  font-weight: 400;
 }
 
 .location .location-cards .card {
-  border-color: #de9a42;
+  border-color: #d79e1a;
   border-radius: 15px;
 }
 
@@ -755,7 +806,7 @@ section.about-section {
 }
 
 .footer-contact h2 {
-  color: #de9a42;
+  color: #d79e1a;
   text-align: center;
   font-weight: 700;
 
@@ -764,24 +815,24 @@ section.about-section {
 .footer-download-btn,
 .footer-download-btn:hover,
 .footer-download-btn:focus {
-  background-color: #de9a42;
+  background-color: #d79e1a;
   color: #fff;
 }
 
 .footer-address p {
-  color: #de9a42;
+  color: #d79e1a;
 }
 
 .footer-mail p {
-  color: #de9a42;
+  color: #d79e1a;
 }
 
 .footer-phone p {
-  color: #de9a42;
+  color: #d79e1a;
 }
 
 .footer-links h2 {
-  color: #de9a42;
+  color: #d79e1a;
   text-align: center;
   font-weight: 700;
 }
@@ -797,7 +848,7 @@ section.about-section {
 }
 
 .footer-links ul li a {
-  color: #de9a42;
+  color: #d79e1a;
 }
 
 .lounge-img {
@@ -812,25 +863,28 @@ section.about-section {
 }
 
 .apartments h1 {
-  color: #de9a42;
-  font-weight: 600;
+  color: #d79e1a;
+  font-weight: 500;
   display: table-caption;
+  font-family: 'Philosopher', sans-serif;
 }
 
 .hl {
-  background-color: #de9a42;
-  border: 1px solid #de9a42;
+  background-color: #d79e1a;
+  border: 1px solid #d79e1a;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
 .apartments p {
   text-align: justify;
+  font-size: 18px;
 }
 
 .apartment-heading {
-  color: #de9a42;
-  font-weight: 700;
+  color: #d79e1a;
+  font-weight: 500;
+  font-family: 'Philosopher', sans-serif;
 }
 
 .apartment-card {
@@ -846,7 +900,7 @@ section.about-section {
   cursor: pointer;
   transition: all .25s ease;
   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, .08);
-  border: 2px solid #de9a42;
+  border: 2px solid #d79e1a;
 }
 
 .apartment-card:hover {
@@ -871,7 +925,7 @@ section.about-section {
 }
 
 .apartment-card .card-text {
-  background-color: #de9a42;
+  background-color: #d79e1a;
   bottom: 0;
   border-radius: 0 0 25px 25px;
   color: white;
@@ -918,7 +972,6 @@ section.about-section {
   justify-content: flex-start;
   width: 100%;
   overflow: auto;
-  padding-top: 50px;
   padding-left: 0px;
   padding-right: 50px;
   scroll-behavior: smooth;
@@ -1094,7 +1147,7 @@ section.about-section {
 }
 
 .fas {
-  color: #de9a42;
+  color: #d79e1a;
 }
 
 .slick-prev {
@@ -1115,38 +1168,42 @@ section.about-section {
 
 .partners {
   text-align: center;
-  color: #de9a42;
-  font-weight: 600;
+  color: #d79e1a;
+  font-weight: 500;
+  font-family: 'Philosopher', sans-serif;
 }
 
 .approvals h1 {
-  color: #de9a42;
+  color: #d79e1a;
   text-align: center;
-  font-weight: 600;
+  font-weight: 500;
+  font-family: 'Philosopher', sans-serif;
 }
 
 
 .floor-plan h1 {
   text-align: center;
-  color: #de9a42;
-  font-weight: 600;
+  color: #d79e1a;
+  font-weight: 500;
+  font-family: 'Philosopher', sans-serif;
 }
 
 .remarkable-feature h1 {
   text-align: center;
-  color: #de9a42;
-  font-weight: bold;
+  color: #d79e1a;
+  font-weight: 500;
+  font-family: 'Philosopher', sans-serif;
 }
 
 .our-feature h6 {
   text-align: center;
-  color: #de9a42;
+  color: #d79e1a;
   font-weight: 700;
 }
 
 .our-feature p {
   text-align: center;
-  color: #de9a42;
+  color: #d79e1a;
   line-height: 1.2;
   font-size: 13px;
 }
@@ -1162,6 +1219,14 @@ section.about-section {
   -moz-box-shadow: 6px 5px 8px 4px rgba(0, 0, 0, 0.53);
   transition: transform .2s;
 }
+.amenties .splide__slide:hover .text-overlay {
+  display: none;
+
+}
+
+.amenitites-images:hover .text-overlay {
+  display: none;
+}
 
 .overlay-effect {
   position: absolute;
@@ -1175,15 +1240,18 @@ section.about-section {
   overflow: hidden;
 }
 
-.splide__slide img:hover {
+/* .splide__slide img:hover {
   transform: scale(1.2);
-}
+} */
 
 .splide__slide {
-  height: 370px !important;
+  height: 400px !important;
   top: 40px;
 }
-
+.splide__slide.is-active{
+  transform: scale(1.2, 1.2); /* sets the active slide to scaling of 1 (100%) */
+  transition: all 0.5s;
+}
 .splide__arrow--next {
   right: 0em !important;
 }
@@ -1201,43 +1269,44 @@ section.about-section {
 }
 
 .amenitites-text h1 {
-  color: #de9a42;
-  font-weight: bold;
+  color: #d79e1a;
+  font-weight: 500;
+  font-family: 'Philosopher', sans-serif;
 
 }
 
 .amenitites-text h6 {
-  color: #de9a42;
+  color: #d79e1a;
 }
 
 .amenities-underline {
   width: 370px;
   text-align: center;
-  border: 1px solid #de9a42;
+  border: 1px solid #d79e1a;
   margin-top: 0.5rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  background-color: #de9a42;
+  background-color: #d79e1a;
 }
 
 .long-underline {
   width: 550px;
   text-align: center;
-  border: 1px solid #de9a42;
+  border: 1px solid #d79e1a;
   margin-top: 0.5rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  background-color: #de9a42;
+  background-color: #d79e1a;
 }
 
 .partners-underline {
   width: 350px;
   text-align: center;
-  border: 1px solid #de9a42;
+  border: 1px solid #d79e1a;
   margin-top: 0.5rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  background-color: #de9a42;
+  background-color: #d79e1a;
 }
 
 .amenitites-images img {
@@ -1264,7 +1333,15 @@ section.about-section {
   font-size: 1.8rem;
   z-index: 1;
 }
-
+@media screen and (min-width:1300px) {
+ 
+.hotel-images .slick-next {
+  right: -30px;
+}
+.hotel-images .slick-prev{
+  left: -30px;
+} 
+}
 .slick-prev:hover,
 .slick-next:hover {
   cursor: pointer;
@@ -1293,7 +1370,9 @@ section.about-section {
   .sticky-wrapper .site-menu-toggle {
     color: #fff;
   }
-
+  .socials{
+    display: none;
+  }
   .about-card {
     position: absolute;
     z-index: 999999;
@@ -1359,6 +1438,7 @@ section.about-section {
 
   .apartments h1 {
     display: inline;
+    font-family: 'Philosopher', sans-serif;
   }
 
   .layout-images {
