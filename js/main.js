@@ -139,7 +139,7 @@ $(document).ready(function () {
         nextArrow: '<img class="slick-next" src="images/arrow-right.png" alt="">',
         responsive: [
             {
-                breakpoint: 1040,
+                breakpoint: 1300,
                 settings: {
                     slidesToShow: 4
                 }
@@ -169,7 +169,7 @@ document.addEventListener('DOMContentLoaded', function () {
         perPage: 3,
         focus: 'center',
         breakpoints: {
-            991: {
+            1250: {
                 perPage: 1,
             },
         },
