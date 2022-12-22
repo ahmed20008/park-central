@@ -855,6 +855,9 @@ section.about-section {
   box-shadow: 0px 17px 35px 0px rgba(0, 0, 0, .07);
 }
 
+footer{
+  border-top: 1px solid #d79e1ab2;
+}
 .footer-contact h2 {
   color: #d79e1a;
   text-align: center;
