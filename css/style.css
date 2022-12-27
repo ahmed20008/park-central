@@ -704,12 +704,12 @@ a:hover {
   background-color: #d79e1a;
 }
 
-.about-card {
+/* .about-card {
   position: absolute;
   z-index: 999999;
   margin-left: 30%;
   right: -180px;
-}
+} */
 
 .about-card .card {
   background-color: rgba(0, 0, 0, 0.50);
@@ -921,6 +921,12 @@ footer{
   margin-bottom: 1rem;
 }
 
+.isometric-zoom,
+.isometric-zoom:hover,
+.isometric-zoom:focus{
+  border: none !important;
+  background-color: transparent !important;
+}
 .apartments p {
   text-align: justify;
   font-size: 18px;
@@ -1043,7 +1049,6 @@ footer{
   border: 0px;
   outline: none;
   cursor: pointer;
-  z-index: 9999;
   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, .08);
   transition: all .25s ease;
 }
@@ -1423,13 +1428,13 @@ footer{
   .socials{
     display: none;
   }
-  .about-card {
+  /* .about-card {
     position: absolute;
     z-index: 999999;
     margin-left: 10%;
     right: -324px;
     top: 270px;
-  }
+  } */
 
   .about-card .card {
     padding: 1.5rem !important;
@@ -1447,14 +1452,14 @@ footer{
     top: 0rem;
   }
 
-  .about-card {
+  /* .about-card {
     position: absolute;
     z-index: 999999;
     margin-left: 0;
     right: 0px;
     top: 445px;
     padding: 1.5rem;
-  }
+  } */
 
   .about-card .card {
     padding: 1rem !important;
@@ -1547,12 +1552,12 @@ footer{
     transform: translate(0px, 25px);
   }
 }
-
+/* 
 @media (max-width: 460.98px) {
   .about-card {
     top: 380px;
   }
-}
+} */
 
 
 @media (max-width: 480.98px) {
@@ -1579,9 +1584,9 @@ footer{
 }
 
 @media (max-width: 315.98px) {
-  .about-card {
+  /* .about-card {
     display: none;
-  }
+  } */
 
   .about-section {
     margin-bottom: 3rem !important;
