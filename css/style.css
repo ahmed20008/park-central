@@ -1597,3 +1597,8 @@ br {
   display: none;
 }
 }
+@media (min-width: 992px){
+.modal-lg, .modal-xl {
+    --bs-modal-width: 1100px;
+}
+}
